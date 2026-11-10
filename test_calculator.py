@@ -1,13 +1,14 @@
+
 from calculator import add, subtract, multiply, divide
 
 def test_add():
-    assert add(10, 5) == 20
+    assert add(10, 5) == 15
 
 def test_subtract():
-    assert subtract(5, 3) == 2
+    assert subtract(10, 5) == 5
 
 def test_multiply():
-    assert multiply(2, 3) == 6
+    assert multiply(10, 5) == 50
 
 def test_divide():
-    assert divide(6, 3) == 2
+    assert divide(10, 5) == 2
